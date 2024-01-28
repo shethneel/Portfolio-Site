@@ -6,6 +6,10 @@
     .about-containers {
         flex-wrap: wrap;
     }
+    #contact,
+    #projects {
+    height: fit-content;
+   }
 }
 
 @media screen and (max-width: 1200px) {
@@ -45,7 +49,7 @@
         height: 40vh;
     }
     #profile {
-        height: 83h;
+        height: 83vh;
         margin-bottom: 0;
     }
     article {
